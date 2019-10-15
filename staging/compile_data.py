@@ -24,7 +24,7 @@ copy_anat = True
 
 
 # Load participant metadata
-with open(join(staging_dir, 'participants_metadata.json')) as f:
+with open(join(staging_dir, 'staging', 'participants_meta.json')) as f:
     metadata = json.load(f)
 
 exclude_ids = []

@@ -23,7 +23,7 @@ for dataset in datasets:
     else:
         data_dir = join(staging_dir, dataset)
 
-    with open(join(data_dir, 'participants.tsv')) as f:
+    with open(join(data_dir, 'staging', 'participants.tsv')) as f:
         tsv = [line.strip().split('\t') for line in f.readlines()]
 
     header = tsv.pop(0)
@@ -62,7 +62,7 @@ for participant in metadata:
 
 
 # Save participants metadata
-with open(join(staging_dir, 'participants_metadata.json'), 'w') as f:
+with open(join(staging_dir, 'staging', participants_meta.json'), 'w') as f:
     json.dump(metadata, f, sort_keys=True, indent=2)
 
 columns = ['participant_id', 'age', 'sex', 'task',

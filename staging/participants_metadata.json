@@ -1,0 +1,7202 @@
+{
+  "sub-001": {
+    "age": [
+      "22",
+      "23"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel"
+    ]
+  },
+  "sub-002": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-003": {
+    "age": [
+      "n/a"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-004": {
+    "age": [
+      "24",
+      "24"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "tunnel"
+    ]
+  },
+  "sub-005": {
+    "age": [
+      "n/a",
+      "n/a"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "tunnel"
+    ]
+  },
+  "sub-006": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-007": {
+    "age": [
+      "45"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-008": {
+    "age": [
+      "n/a"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-009": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-010": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-011": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-012": {
+    "age": [
+      "28"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-013": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel"
+    ]
+  },
+  "sub-014": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-015": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-016": {
+    "age": [
+      "n/a",
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.569",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-017": {
+    "age": [
+      "24"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-018": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-019": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-020": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-021": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-022": {
+    "age": [
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-023": {
+    "age": [
+      "27",
+      "28",
+      "28"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.889",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-024": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-025": {
+    "age": [
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "tunnel"
+    ]
+  },
+  "sub-026": {
+    "age": [
+      "31",
+      "31",
+      "31"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-027": {
+    "age": [
+      "24"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-028": {
+    "age": [
+      "29"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-029": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-030": {
+    "age": [
+      "20",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.963",
+      "0.893"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-031": {
+    "age": [
+      "29"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-032": {
+    "age": [
+      "21",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.963",
+      "0.964"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-033": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-034": {
+    "age": [
+      "18",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "1.0",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-035": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-036": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-037": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-038": {
+    "age": [
+      "33",
+      "34",
+      "34"
+    ],
+    "comprehension": [
+      "n/a",
+      "1.0",
+      "0.893"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-039": {
+    "age": [
+      "31"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-040": {
+    "age": [
+      "31"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-041": {
+    "age": [
+      "21",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-042": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-043": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-044": {
+    "age": [
+      "29"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-045": {
+    "age": [
+      "24"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-046": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-047": {
+    "age": [
+      "26"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-048": {
+    "age": [
+      "27"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-049": {
+    "age": [
+      "24",
+      "26",
+      "27",
+      "27"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "8.0",
+      "8.0"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "schema",
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-050": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.963"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "prettymouth"
+    ]
+  },
+  "sub-051": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-052": {
+    "age": [
+      "20",
+      "20",
+      "20",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "0.926",
+      "0.929"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy",
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-053": {
+    "age": [
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-054": {
+    "age": [
+      "n/a"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-055": {
+    "age": [
+      "28",
+      "28",
+      "28"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-056": {
+    "age": [
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-057": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel"
+    ]
+  },
+  "sub-058": {
+    "age": [
+      "28",
+      "28",
+      "28",
+      "31",
+      "31"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "8.0",
+      "8.0"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy",
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-059": {
+    "age": [
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-060": {
+    "age": [
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-061": {
+    "age": [
+      "23",
+      "23",
+      "23"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-062": {
+    "age": [
+      "24",
+      "24"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel"
+    ]
+  },
+  "sub-063": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "tunnel"
+    ]
+  },
+  "sub-064": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel"
+    ]
+  },
+  "sub-065": {
+    "age": [
+      "24",
+      "24",
+      "24",
+      "24",
+      "25"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "1.0",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy",
+      "prettymouth",
+      "notthefall"
+    ]
+  },
+  "sub-066": {
+    "age": [
+      "22",
+      "22",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "0.926"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy",
+      "prettymouth"
+    ]
+  },
+  "sub-067": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-068": {
+    "age": [
+      "25"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-069": {
+    "age": [
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "tunnel",
+      "lucy"
+    ]
+  },
+  "sub-070": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-071": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-072": {
+    "age": [
+      "29"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-073": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "lucy"
+    ]
+  },
+  "sub-074": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "lucy"
+    ]
+  },
+  "sub-075": {
+    "age": [
+      "18",
+      "19",
+      "19",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "0.532",
+      "n/a",
+      "0.963"
+    ],
+    "condition": [
+      "n/a",
+      "movie",
+      "naive",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "pieman",
+      "merlin",
+      "sherlock",
+      "schema",
+      "21styear"
+    ]
+  },
+  "sub-076": {
+    "age": [
+      "27"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-077": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-078": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-079": {
+    "age": [
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.963",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-080": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-081": {
+    "age": [
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "1.0",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "pieman",
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-082": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "pieman"
+    ]
+  },
+  "sub-083": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "1.0",
+      "0.964"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-084": {
+    "age": [
+      "18",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.889",
+      "0.404",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-085": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "0.889"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "prettymouth"
+    ]
+  },
+  "sub-086": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "1.0",
+      "0.929"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-087": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "1.0",
+      "0.893"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-088": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.852",
+      "0.893"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-089": {
+    "age": [
+      "19",
+      "19",
+      "22"
+    ],
+    "comprehension": [
+      "0.926",
+      "0.893",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "vodka",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway",
+      "schema"
+    ]
+  },
+  "sub-090": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.963",
+      "0.929"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-091": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "1.0",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-092": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "0.926"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "prettymouth"
+    ]
+  },
+  "sub-093": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.926",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-094": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "0.815"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "prettymouth"
+    ]
+  },
+  "sub-095": {
+    "age": [
+      "20",
+      "20",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.963",
+      "0.821",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "original",
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway",
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-096": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "1.0",
+      "0.964"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-097": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.815",
+      "0.929"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-098": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.889",
+      "0.893"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-099": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.926",
+      "0.893"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-100": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.889",
+      "0.964"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-101": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.926",
+      "0.821"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-102": {
+    "age": [
+      "27",
+      "27"
+    ],
+    "comprehension": [
+      "0.963",
+      "0.857"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-103": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.889",
+      "0.821"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-104": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.963",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-105": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.926",
+      "0.857"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-106": {
+    "age": [
+      "22",
+      "22",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.926",
+      "0.893",
+      "0.545",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "original",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway",
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-107": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "1.0",
+      "0.964"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-108": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.852",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "original"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-109": {
+    "age": [
+      "31",
+      "31",
+      "33"
+    ],
+    "comprehension": [
+      "0.963",
+      "0.893",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "vodka",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway",
+      "schema"
+    ]
+  },
+  "sub-110": {
+    "age": [
+      "26",
+      "26"
+    ],
+    "comprehension": [
+      "0.963",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "vodka"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway"
+    ]
+  },
+  "sub-111": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.852",
+      "1.0",
+      "0.598",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "original",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway",
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-112": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "0.857"
+    ],
+    "condition": [
+      "original"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-113": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "0.929"
+    ],
+    "condition": [
+      "original"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-114": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "1.0"
+    ],
+    "condition": [
+      "original"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-115": {
+    "age": [
+      "24",
+      "23",
+      "23"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "synonyms",
+      "physical-social-movie",
+      "physical-social-movie"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "milkyway",
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-116": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-117": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-118": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-119": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-120": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-121": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-122": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-123": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-124": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-125": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-126": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-127": {
+    "age": [
+      "31",
+      "30",
+      "30",
+      "32",
+      "32",
+      "32",
+      "32"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "0.683",
+      "0.44",
+      "0.44",
+      "0.76"
+    ],
+    "condition": [
+      "synonyms",
+      "movie-physical-social",
+      "movie-physical-social",
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "milkyway",
+      "shapessocial",
+      "shapesphysical",
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-128": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-129": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-130": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "synonyms"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "milkyway"
+    ]
+  },
+  "sub-131": {
+    "age": [
+      "22",
+      "23"
+    ],
+    "comprehension": [
+      "n/a",
+      "1.0"
+    ],
+    "condition": [
+      "synonyms",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "milkyway",
+      "21styear"
+    ]
+  },
+  "sub-132": {
+    "age": [
+      "23",
+      "23",
+      "25"
+    ],
+    "comprehension": [
+      "0.349",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall",
+      "schema"
+    ]
+  },
+  "sub-133": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.402",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-134": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.527",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-135": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.397",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-136": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.608",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-137": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.522",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-138": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "0.561"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "slumlordreach"
+    ]
+  },
+  "sub-139": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.771",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-140": {
+    "age": [
+      "26",
+      "26"
+    ],
+    "comprehension": [
+      "0.305",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-141": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.257",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-142": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.505",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-143": {
+    "age": [
+      "23",
+      "23"
+    ],
+    "comprehension": [
+      "0.699",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-144": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.266",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-145": {
+    "age": [
+      "27",
+      "27"
+    ],
+    "comprehension": [
+      "0.641",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "slumlordreach",
+      "notthefall"
+    ]
+  },
+  "sub-146": {
+    "age": [
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.469"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-147": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.542",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-148": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.544",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-149": {
+    "age": [
+      "47",
+      "47"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.327"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-150": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.627",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-151": {
+    "age": [
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "0.187",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-152": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.602"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-153": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.174",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-154": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.602"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-155": {
+    "age": [
+      "26",
+      "26"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.386"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-156": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.173",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-157": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.429",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-158": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.48"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-159": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.597"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-160": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.219",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-161": {
+    "age": [
+      "23",
+      "23"
+    ],
+    "comprehension": [
+      "0.755",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-162": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.751",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-163": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.35",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-164": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.44",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-165": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.212",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-166": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.558",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-167": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.46",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-168": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.833",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-169": {
+    "age": [
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "0.417",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-170": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.235",
+      "n/a"
+    ],
+    "condition": [
+      "naive",
+      "movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-171": {
+    "age": [
+      "20",
+      "20",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.412",
+      "n/a"
+    ],
+    "condition": [
+      "movie",
+      "naive",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock",
+      "schema"
+    ]
+  },
+  "sub-172": {
+    "age": [
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.393"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-173": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.242"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-174": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.319"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-175": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.715"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-176": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.334"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-177": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.279"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-178": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.279"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-179": {
+    "age": [
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.477"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-180": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "0.477"
+    ],
+    "condition": [
+      "movie",
+      "naive"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "merlin",
+      "sherlock"
+    ]
+  },
+  "sub-181": {
+    "age": [
+      "34",
+      "35",
+      "35"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "movie-social-physical",
+      "movie-social-physical"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "schema",
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-182": {
+    "age": [
+      "28"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-183": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-184": {
+    "age": [
+      "25"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-185": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-186": {
+    "age": [
+      "23",
+      "23",
+      "23"
+    ],
+    "comprehension": [
+      "n/a",
+      "8.0",
+      "8.0"
+    ],
+    "condition": [
+      "n/a",
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "schema",
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-187": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-188": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-189": {
+    "age": [
+      "29"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-190": {
+    "age": [
+      "21",
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "10.0",
+      "10.0",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "social-movie-physical",
+      "social-movie-physical",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "schema",
+      "shapessocial",
+      "shapesphysical",
+      "21styear"
+    ]
+  },
+  "sub-191": {
+    "age": [
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "schema",
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-192": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-193": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-194": {
+    "age": [
+      "24"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-195": {
+    "age": [
+      "25"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-196": {
+    "age": [
+      "27"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-197": {
+    "age": [
+      "24"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-198": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-199": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-200": {
+    "age": [
+      "26",
+      "26",
+      "26"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "movie-social-physical",
+      "movie-social-physical"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "schema",
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-201": {
+    "age": [
+      "32",
+      "33",
+      "33",
+      "33"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "0.963"
+    ],
+    "condition": [
+      "n/a",
+      "physical-movie-social",
+      "physical-movie-social",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "schema",
+      "shapessocial",
+      "shapesphysical",
+      "21styear"
+    ]
+  },
+  "sub-202": {
+    "age": [
+      "24"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-203": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-204": {
+    "age": [
+      "28"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-205": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "schema"
+    ]
+  },
+  "sub-206": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-social-physical",
+      "movie-social-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-207": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-social-physical",
+      "movie-social-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-208": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-social-physical",
+      "movie-social-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-209": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-social-physical",
+      "movie-social-physical"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-210": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-social-physical",
+      "movie-social-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-211": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-social-physical",
+      "movie-social-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-212": {
+    "age": [
+      "24",
+      "24"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-social-physical",
+      "movie-social-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-213": {
+    "age": [
+      "29",
+      "29"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-214": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-215": {
+    "age": [
+      "30",
+      "30"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-216": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-217": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-218": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-219": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-220": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "movie-physical-social",
+      "movie-physical-social"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-221": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "9.0",
+      "9.0"
+    ],
+    "condition": [
+      "social-physical-movie",
+      "social-physical-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-222": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "10.0",
+      "10.0"
+    ],
+    "condition": [
+      "social-physical-movie",
+      "social-physical-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-223": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "10.0",
+      "10.0"
+    ],
+    "condition": [
+      "social-physical-movie",
+      "social-physical-movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-224": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "social-physical-movie",
+      "social-physical-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-225": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "8.0",
+      "8.0"
+    ],
+    "condition": [
+      "social-physical-movie",
+      "social-physical-movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-226": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-227": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-228": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "10.0",
+      "10.0"
+    ],
+    "condition": [
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-229": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "6.0",
+      "6.0"
+    ],
+    "condition": [
+      "social-physical-movie",
+      "social-physical-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-230": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "7.0",
+      "7.0"
+    ],
+    "condition": [
+      "social-physical-movie",
+      "social-physical-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-231": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "8.0",
+      "8.0"
+    ],
+    "condition": [
+      "social-physical-movie",
+      "social-physical-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-232": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "7.0",
+      "7.0"
+    ],
+    "condition": [
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-233": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "10.0",
+      "10.0"
+    ],
+    "condition": [
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-234": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "8.0",
+      "8.0"
+    ],
+    "condition": [
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-235": {
+    "age": [
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "10.0",
+      "10.0",
+      "0.889"
+    ],
+    "condition": [
+      "social-physical-movie",
+      "social-physical-movie",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical",
+      "21styear"
+    ]
+  },
+  "sub-236": {
+    "age": [
+      "27",
+      "27"
+    ],
+    "comprehension": [
+      "10.0",
+      "10.0"
+    ],
+    "condition": [
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-237": {
+    "age": [
+      "32",
+      "32"
+    ],
+    "comprehension": [
+      "10.0",
+      "10.0"
+    ],
+    "condition": [
+      "social-movie-physical",
+      "social-movie-physical"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-238": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-social-movie",
+      "physical-social-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-239": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-movie-social",
+      "physical-movie-social"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-240": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-movie-social",
+      "physical-movie-social"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-241": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-social-movie",
+      "physical-social-movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-242": {
+    "age": [
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-social-movie",
+      "physical-social-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-243": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-movie-social",
+      "physical-movie-social"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-244": {
+    "age": [
+      "22",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "0.852"
+    ],
+    "condition": [
+      "physical-movie-social",
+      "physical-movie-social",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical",
+      "21styear"
+    ]
+  },
+  "sub-245": {
+    "age": [
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-movie-social",
+      "physical-movie-social"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-246": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-movie-social",
+      "physical-movie-social"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-247": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-social-movie",
+      "physical-social-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-248": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-social-movie",
+      "physical-social-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-249": {
+    "age": [
+      "20",
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a",
+      "0.889"
+    ],
+    "condition": [
+      "physical-movie-social",
+      "physical-movie-social",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical",
+      "21styear"
+    ]
+  },
+  "sub-250": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-social-movie",
+      "physical-social-movie"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-251": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-social-movie",
+      "physical-social-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-252": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-movie-social",
+      "physical-movie-social"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-253": {
+    "age": [
+      "29",
+      "29"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "physical-social-movie",
+      "physical-social-movie"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-254": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "0.926"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-255": {
+    "age": [
+      "27"
+    ],
+    "comprehension": [
+      "1.0"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-256": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "0.778"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-257": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "0.889"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-258": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "0.963"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-259": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "0.63"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-260": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "1.0"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-261": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "0.926"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-262": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "0.815"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-263": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "0.963"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-264": {
+    "age": [
+      "23"
+    ],
+    "comprehension": [
+      "0.852"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-265": {
+    "age": [
+      "19",
+      "20",
+      "20",
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.926",
+      "0.6",
+      "0.64",
+      "0.64",
+      "0.76"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "21styear",
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-266": {
+    "age": [
+      "41"
+    ],
+    "comprehension": [
+      "0.889"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-267": {
+    "age": [
+      "26",
+      "27",
+      "27",
+      "27",
+      "27"
+    ],
+    "comprehension": [
+      "0.963",
+      "0.833",
+      "0.46",
+      "0.46",
+      "0.88"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "21styear",
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-268": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "1.0"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-269": {
+    "age": [
+      "19"
+    ],
+    "comprehension": [
+      "0.852"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-270": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "1.0"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-271": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "1.0"
+    ],
+    "condition": [
+      "n/a"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "21styear"
+    ]
+  },
+  "sub-272": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.517",
+      "0.38",
+      "0.38",
+      "0.64"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-273": {
+    "age": [
+      "20",
+      "20",
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.9",
+      "0.76",
+      "0.76",
+      "0.96"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-274": {
+    "age": [
+      "50",
+      "50",
+      "50",
+      "50"
+    ],
+    "comprehension": [
+      "0.783",
+      "0.74",
+      "0.74",
+      "0.86"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-275": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.833",
+      "0.66",
+      "0.66",
+      "0.76"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-276": {
+    "age": [
+      "21",
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.483",
+      "0.5",
+      "0.5",
+      "0.52"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-277": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.567",
+      "0.18",
+      "0.18",
+      "0.52"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-278": {
+    "age": [
+      "20",
+      "20",
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.567",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-279": {
+    "age": [
+      "20",
+      "20",
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.067",
+      "0.08",
+      "0.08",
+      "0.8"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-280": {
+    "age": [
+      "24",
+      "24",
+      "24",
+      "24"
+    ],
+    "comprehension": [
+      "0.767",
+      "0.88",
+      "0.88",
+      "0.96"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-281": {
+    "age": [
+      "22",
+      "22",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.233",
+      "0.24",
+      "0.24",
+      "0.32"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-282": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.45",
+      "0.36",
+      "0.36",
+      "0.4"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-283": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.4",
+      "0.38",
+      "0.38",
+      "0.36"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-284": {
+    "age": [
+      "21",
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.9",
+      "0.86",
+      "0.86",
+      "0.88"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-285": {
+    "age": [
+      "22",
+      "22",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.783",
+      "0.94",
+      "0.94",
+      "0.92"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-286": {
+    "age": [
+      "18",
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.617",
+      "0.58",
+      "0.58",
+      "0.66"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-287": {
+    "age": [
+      "21",
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.3",
+      "0.52",
+      "0.52",
+      "0.8"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-288": {
+    "age": [
+      "25",
+      "25",
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "0.617",
+      "0.7",
+      "0.7",
+      "0.76"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-289": {
+    "age": [
+      "18",
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.767",
+      "0.58",
+      "0.58",
+      "0.84"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-290": {
+    "age": [
+      "26",
+      "26",
+      "26",
+      "26"
+    ],
+    "comprehension": [
+      "0.933",
+      "0.96",
+      "0.96",
+      "1.0"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-291": {
+    "age": [
+      "18",
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.8",
+      "0.76",
+      "0.76",
+      "0.84"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-292": {
+    "age": [
+      "18",
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.65",
+      "0.82",
+      "0.82",
+      "0.68"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-293": {
+    "age": [
+      "20",
+      "20",
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.283",
+      "0.56",
+      "0.56",
+      "0.64"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-294": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.783",
+      "0.76",
+      "0.76",
+      "0.78"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-295": {
+    "age": [
+      "18",
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.45",
+      "0.64",
+      "0.64",
+      "0.72"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-296": {
+    "age": [
+      "38",
+      "38",
+      "38",
+      "38"
+    ],
+    "comprehension": [
+      "0.417",
+      "0.24",
+      "0.24",
+      "0.12"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-297": {
+    "age": [
+      "21",
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.417",
+      "0.24",
+      "0.24",
+      "0.8"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-298": {
+    "age": [
+      "26",
+      "26",
+      "26",
+      "26"
+    ],
+    "comprehension": [
+      "0.8",
+      "0.8",
+      "0.8",
+      "0.9"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-299": {
+    "age": [
+      "18",
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.633",
+      "0.34",
+      "0.34",
+      "0.92"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-300": {
+    "age": [
+      "53",
+      "53",
+      "53",
+      "53"
+    ],
+    "comprehension": [
+      "0.75",
+      "0.4",
+      "0.4",
+      "0.76"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-301": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.767",
+      "0.64",
+      "0.64",
+      "0.92"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-302": {
+    "age": [
+      "18",
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.683",
+      "0.24",
+      "0.24",
+      "0.88"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-303": {
+    "age": [
+      "21",
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.717",
+      "0.36",
+      "0.36",
+      "0.8"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-304": {
+    "age": [
+      "25",
+      "25",
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "0.817",
+      "0.6",
+      "0.6",
+      "0.7"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-305": {
+    "age": [
+      "20",
+      "20",
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.617",
+      "0.54",
+      "0.54",
+      "0.6"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-306": {
+    "age": [
+      "18",
+      "18",
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "0.717",
+      "0.5",
+      "0.5",
+      "0.72"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-307": {
+    "age": [
+      "20",
+      "20",
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "0.55",
+      "0.68",
+      "0.68",
+      "0.84"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-308": {
+    "age": [
+      "22",
+      "22",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.7",
+      "0.84",
+      "0.84",
+      "0.92"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-309": {
+    "age": [
+      "21",
+      "21",
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "0.683",
+      "0.7",
+      "0.7",
+      "0.92"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-310": {
+    "age": [
+      "28",
+      "28",
+      "28",
+      "28"
+    ],
+    "comprehension": [
+      "0.85",
+      "0.74",
+      "0.74",
+      "0.92"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-311": {
+    "age": [
+      "22",
+      "22",
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "0.517",
+      "0.58",
+      "0.58",
+      "0.66"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-312": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "0.7",
+      "0.7",
+      "0.7",
+      "0.84"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-313": {
+    "age": [
+      "26",
+      "26",
+      "26",
+      "26"
+    ],
+    "comprehension": [
+      "0.833",
+      "0.82",
+      "0.82",
+      "0.88"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-314": {
+    "age": [
+      "25",
+      "25",
+      "25",
+      "25"
+    ],
+    "comprehension": [
+      "0.767",
+      "0.78",
+      "0.78",
+      "0.92"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "F",
+      "F",
+      "F",
+      "F"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  },
+  "sub-315": {
+    "age": [
+      "35",
+      "35",
+      "35",
+      "35"
+    ],
+    "comprehension": [
+      "0.5",
+      "0.32",
+      "0.32",
+      "0.6"
+    ],
+    "condition": [
+      "n/a",
+      "n/a",
+      "n/a",
+      "n/a"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "piemanpni",
+      "bronx",
+      "forgot",
+      "black"
+    ]
+  }
+}

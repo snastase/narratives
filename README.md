@@ -1,5 +1,5 @@
-# Narratives
-fMRI data for evaluating models of naturalistic language comprehension
+# Narratives  
+### fMRI data for evaluating models of naturalistic language comprehension
 
 This repository accompanies the public release of the "Narratives" data collection and the corresponding data descriptor paper currently in preparation. The "Narratives" collection comprises fMRI data collected while participants listened to 28 spoken story stimuli ranging from ~3 minutes to ~56 minutes for a total of ~5 hours of unique stimuli. The collection includes 315 unique subjects participating in over 750 functional scans with accompanying anatomical data. Data were collected over the course of roughly seven years, from October, 2011 to September, 2018. All participants provided informed, written consent prior to data collection in accordance with experimental procedures approved by Princeton University Institutional Review Board. All neuroimaging data herein are released under the Open Data Commons (ODC) Public Domain Dedication and License (PDDL). This repository contains both scripts used to prepare the data for sharing (`staging/`) and scripts used to analyze the BIDS-formatted data (`code/`). The raw BIDS-compliant data can be accessed at OpenNeuro: [**ds002245**](https://openneuro.org/datasets/ds002245)
 

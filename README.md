@@ -2,7 +2,7 @@
 ### fMRI data for evaluating models of naturalistic language comprehension
 
 ![Alt text](https://upload.wikimedia.org/wikipedia/commons/a/a0/Orphant_Annie_Book_%E2%80%93_Title_page.jpg?raw=true&s=100 "The Orphant Annie Book")  
-<sub><sup>Ethel Franklin Betts, from The Orphant Annie Book, by James Whitcomb Riley ([wikimedia](https://commons.wikimedia.org/wiki/File:Orphant_Annie_Book_%E2%80%93_Title_page.jpg)</sup></sub>
+<sub><sup>Ethel Franklin Betts, from The Orphant Annie Book, by James Whitcomb Riley ([wikimedia](https://commons.wikimedia.org/wiki/File:Orphant_Annie_Book_%E2%80%93_Title_page.jpg))</sup></sub>
 
 This repository accompanies the public release of the "Narratives" data collection and the corresponding data descriptor paper currently in preparation. The "Narratives" collection comprises fMRI data collected while participants listened to 28 spoken story stimuli ranging from ~3 minutes to ~56 minutes for a total of ~5 hours of unique stimuli. The collection includes 315 unique subjects participating in over 750 functional scans with accompanying anatomical data. Data were collected over the course of roughly seven years, from October, 2011 to September, 2018. All participants provided informed, written consent prior to data collection in accordance with experimental procedures approved by Princeton University Institutional Review Board. All neuroimaging data herein are released under the Open Data Commons (ODC) Public Domain Dedication and License (PDDL). This repository contains both scripts used to prepare the data for sharing (`staging/`) and scripts used to analyze the BIDS-formatted data (`code/`). The raw BIDS-compliant data can be accessed at OpenNeuro: [**ds002245**](https://openneuro.org/datasets/ds002245)
 

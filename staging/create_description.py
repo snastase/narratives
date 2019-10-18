@@ -6,7 +6,7 @@ from glob import glob
 import pandas as pd
 
 staging_dir = '/jukebox/hasson/snastase/narratives-staging'
-bids_dir = '/jukebox/hasson/snastase/narratives'
+bids_dir = '/jukebox/hasson/snastase/narratives-openneuro'
 
 desc = {"Acknowledgements": "We thank the administrative staff "
                             "of the Princeton Neuroscience Institute.",
@@ -47,8 +47,8 @@ with open(join(bids_dir, 'dataset_description.json'), 'w') as f:
 
 
 # Copy staged README and CHANGES as well
-copyfile(join(staging_dir, 'README'), join(bids_dir, 'README'))
-copyfile(join(staging_dir, 'CHANGES'), join(bids_dir, 'CHANGES'))
+copyfile(join(staging_dir, 'staging', 'README'), join(bids_dir, 'README'))
+copyfile(join(staging_dir, 'staging', 'CHANGES'), join(bids_dir, 'CHANGES'))
 
 
 # Create *_scans.tsv files
@@ -97,8 +97,9 @@ scans_meta = {"filename": {"Description": "filename for the scan"},
                             "experimental condition for the scan "
                             "(if applicable)"}}
 
-with open(join(bids_dir, 'scans.json'), 'w') as f:
-    json.dump(scans_meta, f, sort_keys=True, indent=2)
+for subject in metadata:
+    with open(join(bids_dir, subject, f'{subject}_scans.json'), 'w') as f:
+        json.dump(scans_meta, f, sort_keys=True, indent=2)
 
     
 # Fix task names in metadata

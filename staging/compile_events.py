@@ -6,7 +6,7 @@ import pandas as pd
 
 base_dir = '/jukebox/hasson/snastase'
 staging_dir = join(base_dir, 'narratives-staging')
-bids_dir = join(base_dir, 'narratives-raw')
+bids_dir = join(base_dir, 'narratives-openneuro')
 
 datasets = ['pieman', 'tunnel', 'lucy', 'prettymouth',
             'milkyway', 'slumlordreach', 'notthefall',

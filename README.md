@@ -2,7 +2,7 @@
 ### fMRI data for evaluating models of naturalistic language comprehension
 
 ![Alt text](https://upload.wikimedia.org/wikipedia/commons/a/a0/Orphant_Annie_Book_%E2%80%93_Title_page.jpg?raw=true&s=100 "The Orphant Annie Book")  
-<sub><sup>Ethel Franklin Betts, from The Orphant Annie Book, by James Whitcomb Riley ([wikimedia](https://commons.wikimedia.org/wiki/File:Orphant_Annie_Book_%E2%80%93_Title_page.jpg))</sup></sub>
+<sub><sup>Ethel Franklin Betts (1908), from The Orphant Annie Book, by James Whitcomb Riley ([wikimedia](https://commons.wikimedia.org/wiki/File:Orphant_Annie_Book_%E2%80%93_Title_page.jpg))</sup></sub>
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![OpenNeuro](https://img.shields.io/badge/Data-OpenNeuro-blue)](https://openneuro.org/datasets/ds002245)

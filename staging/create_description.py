@@ -6,7 +6,7 @@ from glob import glob
 import pandas as pd
 
 staging_dir = '/jukebox/hasson/snastase/narratives-staging'
-bids_dir = '/jukebox/hasson/snastase/narratives-openneuro'
+bids_dir = '/jukebox/hasson/snastase/narratives'
 
 desc = {"Acknowledgements": "We thank the administrative staff "
                             "of the Princeton Neuroscience Institute.",
@@ -126,6 +126,11 @@ for participant in metadata:
         func_meta['TaskDescription'] = ("Passively listened to "
                                         f"audio story '{task}'")
         func_meta['NumberOfVolumesDiscardedByScanner'] = 3
+        if 'ParellelReductionType' in func_meta:
+            if func_meta['ParellelReductionType'] == 'TODO':
+                func_meta.pop('ParellelReductionType')
+                func_meta['ParallelReductionType'] = 'GRAPPA'
+                print("Filled in GRAPPA ParallelReductionType")
         
         with open(func_fn, 'w') as f:
             json.dump(func_meta, f, sort_keys=True, indent=2)

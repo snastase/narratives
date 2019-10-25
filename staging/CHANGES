@@ -1,2 +1,5 @@
-1.0.0 2019-10-11
+1.0.1 2019-10-25
+ - Fixed top-level metadata and JSONs.
+
+1.0.0 2019-10-18
  - Initial release.

@@ -27,20 +27,25 @@ desc = {"Acknowledgements": "We thank the administrative staff "
                     "Michael A. Chow",
                     "Yuan Chang Leong",
                     "Paula P. Brooks",
+                    "Gina Choe",
+                    "Ariel Goldstein",
+                    "Yaroslav O. Halchenko",
                     "Kenneth A. Norman",
                     "Uri Hasson"],
         "BIDSVersion": "1.2.1",
-        "DatasetDOI": "TODO",
+        "DatasetDOI": "10.18112/openneuro.ds002245",
         "Funding": ["National Institutes of Health Grant R01-MH094480",
                     "National Institutes of Health Grant DP1-HD091948",
                     "National Institutes of Health Grant R01-MH112566",
                     "National Institutes of Health Grant R01-MH112357",
                     "National Institutes of Health Grant T32-MH065214",
                     "Defense Advanced Research Projects Agency Grant FA8750-18-C-0213"],
-        "HowToAcknowledge": "TODO",
-        "License": "PDDL (http://opendatacommons.org/licenses/pddl/)",
+        "HowToAcknowledge": "Please cite this dataset: Nastase, S. A., Liu, Y.-F., Hillman, H., Zadbood, A., Hasenfratz, L., Keshavarzian, N., Chen, J., Honey, C. J., Yeshurun, Y., Regev, M., Nguyen, M., Chang, C. H. C., Baldassano, C. B., Lositsky, O., Chow, M. A., Leong, Y. C., Brooks, P. P., Choe, G., Goldstein, A., Halchenko, Y. O., Norman, K. A., Hasson, U. (in preparation). Narratives: fMRI data for evaluating models of naturalistic language comprehension. https://doi.org/10.18112/openneuro.ds002245",
+        "License": "CC0",
         "Name": "Narratives",
-        "ReferencesAndLinks": ["TODO"]}
+        "ReferencesAndLinks": ["Nastase, S. A., Liu, Y.-F., Hillman, H., Zadbood, A., Hasenfratz, L., Keshavarzian, N., Chen, J., Honey, C. J., Yeshurun, Y., Regev, M., Nguyen, M., Chang, C. H. C., Baldassano, C. B., Lositsky, O., Chow, M. A., Leong, Y. C., Brooks, P. P., Choe, G., Goldstein, A., Halchenko, Y. O., Norman, K. A., Hasson, U. (in preparation). Narratives: fMRI data for evaluating models of naturalistic language comprehension. https://doi.org/10.18112/openneuro.ds002245",
+                               "https://github.com/snastase/narratives",
+                               "https://snastase.github.io/datasets/ds002245"]}
 
 with open(join(bids_dir, 'dataset_description.json'), 'w') as f:
     json.dump(desc, f, sort_keys=True, indent=2)
@@ -131,6 +136,47 @@ for participant in metadata:
                 func_meta.pop('ParellelReductionType')
                 func_meta['ParallelReductionType'] = 'GRAPPA'
                 print("Filled in GRAPPA ParallelReductionType")
+
+        if 'AcquisitionTime' in func_meta:
+            func_meta.pop('AcquisitionTime')
+                  
+        if 'AcquisitionNumber' in func_meta:
+            func_meta.pop('AcquisitionNumber')
+                  
+        func_meta['InstitutionAddress'] = ("Washington Rd, "
+                                           "Princeton, NJ 08540, USA")
+        func_meta['InstitutionalDepartmentName'] = (
+            "Princeton Neuroscience Institute")
+                  
+        func_meta['InstitutionName'] = "Princeton University"
         
         with open(func_fn, 'w') as f:
             json.dump(func_meta, f, sort_keys=True, indent=2)
+                  
+        func_fns = glob('func/*.json')
+
+    anat_fns = glob('anat/*.json')
+    for anat_fn in anat_fns:
+        with open(anat_fn) as f:
+            anat_meta = json.load(f)
+            
+        if 'ParellelReductionType' in anat_meta:
+            anat_meta.pop('ParellelReductionType')
+        anat_meta['ParallelReductionType'] = "GRAPPA"
+        print("Filled in GRAPPA ParallelReductionType")
+
+        if 'AcquisitionTime' in anat_meta:
+            anat_meta.pop('AcquisitionTime')
+                  
+        if 'AcquisitionNumber' in anat_meta:
+            anat_meta.pop('AcquisitionNumber')
+                  
+        anat_meta['InstitutionAddress'] = ("Washington Rd, "
+                                           "Princeton, NJ 08540, USA")
+        anat_meta['InstitutionalDepartmentName'] = (
+            "Princeton Neuroscience Institute")
+                  
+        anat_meta['InstitutionName'] = "Princeton University"
+        
+        with open(anat_fn, 'w') as f:
+            json.dump(anat_meta, f, sort_keys=True, indent=2)

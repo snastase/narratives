@@ -1,5 +1,5 @@
-1.0.1 2019-10-25
- - Fixed top-level metadata and JSONs.
+1.0.1 2019-12-14
+  - Minor cleanup and fix metadata
 
-1.0.0 2019-10-18
- - Initial release.
+1.0.0   2019-12-11
+  - Initial snapshot

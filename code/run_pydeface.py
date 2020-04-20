@@ -7,7 +7,8 @@ import json
 from subprocess import call
 
 # Running pydeface locally on mounted volumes
-base_dir = '/Volumes/hasson/snastase'
+#base_dir = '/Volumes/hasson/snastase'
+base_dir = '/Users/snastase/Work/mount'
 staging_dir = join(base_dir, 'narratives-staging')
 bids_dir = join(base_dir, 'narratives-openneuro')
 
@@ -26,3 +27,19 @@ for subject in metadata:
         call(f'pydeface --outfile {anat_fn} --force {anat_fn}',
              shell=True)
         print(f"Finished defacing {anat_fn}!")
+        
+
+# Grab new notthefall subjects and check against existing conditions
+new_tasks = ['notthefallintact',
+             'notthefalllongscram',
+             'notthefallshortscram']
+
+new_subjects, new_funcs, new_anats = [], [], []
+for subject in metadata:
+    tasks = metadata[subject]['task']
+    if 'notthefallintact' in tasks:
+        new_subjects.append(subject)
+        new_funcs.append(subject)
+        old_tasks = list(set(tasks) - set(new_tasks))
+        if len(old_tasks) == 0:
+            new_anats.append(subject)

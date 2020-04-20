@@ -3,26 +3,23 @@
 # Run within BIDS code/ directory:
 # sbatch slurm_fmriprep.sh
 
-# Set current working directory
-#SBATCH --workdir=.
-
 # Set partition
 #SBATCH --partition=all
 
 # How long is job (in minutes)?
-#SBATCH --time=1400
+#SBATCH --time=960
 
 # How much memory to allocate (in MB)?
-#SBATCH --cpus-per-task=8 --mem-per-cpu=16000
+#SBATCH --cpus-per-task=4 --mem-per-cpu=12000
 
 # Name of jobs?
 #SBATCH --job-name=fmriprep
 
 # Where to output log files?
-#SBATCH --output='../derivatives/logs/fmriprep-%A_%a.log'
+#SBATCH --output='../derivatives/logs/fmriprep-res-native-v20.0.5-%A_%a.log'
 
 # Number jobs to run in parallel, pass index as subject ID
-#SBATCH --array=1-315
+#SBATCH --array=1-345
 
 # Remove modules because Singularity shouldn't need them
 echo "Purging modules"

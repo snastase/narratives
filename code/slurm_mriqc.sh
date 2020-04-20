@@ -3,17 +3,14 @@
 # Run within BIDS code/ directory:
 # sbatch slurm_mriqc.sh
 
-# Set current working directory
-#SBATCH --workdir=.
-
 # Set partition
 #SBATCH --partition=all
 
 # How long is job (in minutes)?
-#SBATCH --time=1440
+#SBATCH --time=180
 
 # How much memory to allocate (in MB)?
-#SBATCH --cpus-per-task=8 --mem-per-cpu=12000
+#SBATCH --cpus-per-task=8 --mem-per-cpu=10000
 
 # Name of jobs?
 #SBATCH --job-name=mriqc
@@ -22,7 +19,7 @@
 #SBATCH --output='../derivatives/logs/mriqc-%A_%a.log'
 
 # Number jobs to run in parallel
-#SBATCH --array=1-315
+#SBATCH --array=1-345
 
 # Remove modules because Singularity shouldn't need them
 echo "Purging modules"

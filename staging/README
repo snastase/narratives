@@ -1,6 +1,6 @@
 Narratives: fMRI data for evaluating models of naturalistic language comprehension
 
-The "Narratives" collection aggregates auditory story-listening fMRI datasets acquired over the course of roughly seven years (2011–2018). Stimuli comprised 28 naturalistic spoken stories ranging from ~3 to ~56 minutes for a total of ~5 hours of unique audio stimuli. The collection includes 315 unique subjects participating in over 750 functional scans with accompanying anatomical data. This re-release of the dataset follows on ds002245 v.1.0.3 and fixes some issues with cropped and redundant T1w anatomical images.
+The "Narratives" collection aggregates auditory story-listening fMRI datasets acquired over the course of roughly seven years (2011–2018). Stimuli comprised 28 naturalistic spoken stories ranging from ~3 to ~56 minutes for a total of ~5 hours of unique audio stimuli. The collection includes 345 unique subjects participating in over 750 functional scans with accompanying anatomical data. This re-release of the dataset follows on ds002245 v.1.0.3 and fixes some issues with cropped and redundant T1w anatomical images.
 
 Please contact Sam Nastase if you observe any irregularities in the dataset.
 

@@ -1,5 +1,8 @@
+1.1.1 2020-07-03
+  - Fixed broken "piemanpni_audio.wav" file
+1.1.0 2020-06-19
+  - Added more "notthefall" subjects (including scrambled conditions)
 1.0.1 2019-12-14
   - Minor cleanup and fix metadata
-
 1.0.0   2019-12-11
   - Initial snapshot

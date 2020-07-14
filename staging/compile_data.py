@@ -7,12 +7,14 @@ import numpy as np
 import pandas as pd
 import nibabel as nib
 
+
 base_dir = '/jukebox/hasson/snastase'
 staging_dir = join(base_dir, 'narratives-staging')
 bids_dir = join(base_dir, 'narratives-openneuro')
 
 datasets = ['pieman', 'tunnel', 'lucy', 'prettymouth',
-            'milkyway', 'slumlordreach', 'notthefall',
+            'milkyway', 'slumlordreach', 'notthefallintact',
+            'notthefalllongscram', 'notthefallshortscram',
             'merlin', 'sherlock', 'schema', 'shapessocial',
             'shapesphysical', '21styear', 'piemanpni',
             'bronx', 'forgot', 'black']
@@ -31,7 +33,7 @@ exclude_ids = []
 
 
 # List of duplicate anatomicals to exclude
-task_dupli = ['notthefall', 'sherlock', 'shapesphysical',
+task_dupli = ['sherlock', 'shapesphysical',
               'bronx', 'forgot', 'black']
 
 anat_dupli = {'sub-001': ['pieman', 'tunnel', 'lucy'],
@@ -101,6 +103,14 @@ anat_multi = {'sub-016': ['pieman', 'slumlordreach'],
               'sub-249': ['shapessocial', '21styear']}
 
 
+# Adding new notthefall data
+new_tasks = ['notthefallintact',
+             'notthefalllongscram',
+             'notthefallshortscram']
+
+new_subjects, new_funcs, new_anats = [], [], []
+
+
 # Loop through BIDS IDs and grab data
 for participant in metadata:
     
@@ -111,6 +121,10 @@ for participant in metadata:
             
             if task in ['shapesphysical', 'shapessocial']:
                 input_dir = join(staging_dir, 'shapes')
+            elif task in ['notthefallintact',
+                          'notthefalllongscram',
+                          'notthefallshortscram']:
+                input_dir = join(staging_dir, 'notthefall_2020-01-29')
             else:
                 input_dir = join(staging_dir, task)
             
@@ -153,6 +167,9 @@ for participant in metadata:
 
             for fn in anat_fns:
                 if task in task_dupli:
+                    pass
+                elif participant not in new_anats and task in new_tasks:
+                    print("Skipping because we already have this subject!")
                     pass
                 elif len(glob(join(anat_dir_out, fn.replace('_T', '*_T')))) == 0:
                     print(f"Copying {fn} to narratives directory")
@@ -218,4 +235,20 @@ for participant in metadata:
                                 copyfile(join(anat_dir_in, j_fn),
                                          join(anat_dir_out,
                                               j_fn.replace('_T', f'_run-{anat_n}_T')))
-                            
+
+
+# Remove the following anats
+dup_anats = {'sub-023': 'run-3',
+             'sub-030': 'run-3',
+             'sub-032': 'run-3',
+             'sub-034': 'run-3',
+             'sub-038': 'run-3',
+             'sub-186': 'run-2'}
+
+for s in dup_anats:
+    anat_fn = join(bids_dir, s, 'anat', f'{s}_{dup_anats[s]}_T1w.nii.gz')
+    anat_js = join(bids_dir, s, 'anat', f'{s}_{dup_anats[s]}_T1w.json')
+    if exists(anat_fn):
+        print(f"Removing T1w {dup_anats[s]} for {s}")
+        remove(anat_fn)
+        remove(anat_js)

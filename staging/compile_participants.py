@@ -5,10 +5,11 @@ import pandas as pd
 
 base_dir = '/jukebox/hasson/snastase'
 staging_dir = join(base_dir, 'narratives-staging')
-final_dir = join(base_dir, 'narratives')
+final_dir = join(base_dir, 'narratives-openneuro')
 
 datasets = ['pieman', 'tunnel', 'lucy', 'prettymouth',
-            'milkyway', 'slumlordreach', 'notthefall',
+            'milkyway', 'slumlordreach', 'notthefallintact',
+            'notthefalllongscram', 'notthefallshortscram',
             'merlin', 'sherlock', 'schema', 'shapessocial',
             'shapesphysical', '21styear', 'piemanpni',
             'bronx', 'forgot', 'black']
@@ -17,9 +18,14 @@ datasets = ['pieman', 'tunnel', 'lucy', 'prettymouth',
 # Populate metadata for all datasets avoiding collisions
 metadata = {}
 for dataset in datasets:
-    
+ 
     if dataset in ['shapesphysical', 'shapessocial']:
         data_dir = join(staging_dir, 'shapes')
+    elif dataset in ['notthefallintact',
+                     'notthefalllongscram',
+                     'notthefallshortscram']:
+        data_dir = join(staging_dir, 'notthefall_2020-01-29')
+        dataset_task = dataset.replace('notthefall', '')
     else:
         data_dir = join(staging_dir, dataset)
 
@@ -29,13 +35,17 @@ for dataset in datasets:
     header = tsv.pop(0)
 
     for row in tsv:
+        if 'notthefall' in dataset and dataset_task not in row[3]:
+            continue
+
         if row[1] != 'n/a':
             row[1] = str(int(float(row[1])))
-        
+
         if row[0] not in metadata:
             metadata[row[0]] = {'age': [], 'sex': [],
                                 'task': [], 'condition': [],
                                 'comprehension': []}
+
         if dataset not in metadata[row[0]]['task']:
             metadata[row[0]]['age'].append(row[1])
             metadata[row[0]]['sex'].append(row[2])
@@ -78,7 +88,7 @@ for participant in sorted(metadata):
            ','.join(metadata[participant]['condition']),
            ','.join(metadata[participant]['comprehension'])]
     new_tsv.append(row)
-    
+ 
 df = pd.DataFrame(new_tsv, columns=columns)
 
 df.to_csv(join(final_dir, 'participants.tsv'), sep='\t', index=False)
@@ -99,3 +109,4 @@ desc = {"age": {"Description": "age of the participant",
 
 with open(join(final_dir, 'participants.json'), 'w') as f:
     json.dump(desc, f, sort_keys=True, indent=2)
+

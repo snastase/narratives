@@ -19,6 +19,11 @@ with open(join(staging_dir, 'staging', 'participants_meta.json')) as f:
 n_subjects = len(metadata.keys())
 
 
+# Number of functional scans
+n_funcs = sum([len(metadata[subject]['task'])
+               for subject in metadata])
+
+
 # Get ages across all 
 ages = []
 for subject in metadata:

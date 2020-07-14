@@ -278,19 +278,23 @@
     "age": [
       "n/a",
       "20",
+      "20",
       "20"
     ],
     "comprehension": [
       "n/a",
       "0.569",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
       "n/a",
-      "n/a"
+      "intact-shortscram",
+      "intact-shortscram"
     ],
     "sex": [
+      "F",
       "F",
       "F",
       "F"
@@ -298,7 +302,8 @@
     "task": [
       "pieman",
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   },
   "sub-017": {
@@ -649,19 +654,27 @@
     "age": [
       "18",
       "19",
+      "19",
+      "19",
       "19"
     ],
     "comprehension": [
       "n/a",
       "1.0",
-      "1.0"
+      "1.0",
+      "n/a",
+      "n/a"
     ],
     "condition": [
       "n/a",
       "affair",
-      "original"
+      "original",
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "M",
+      "M",
       "M",
       "M",
       "M"
@@ -669,7 +682,9 @@
     "task": [
       "pieman",
       "prettymouth",
-      "milkyway"
+      "milkyway",
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-035": {
@@ -1348,6 +1363,7 @@
       "24",
       "24",
       "24",
+      "25",
       "25"
     ],
     "comprehension": [
@@ -1355,6 +1371,7 @@
       "n/a",
       "n/a",
       "1.0",
+      "n/a",
       "n/a"
     ],
     "condition": [
@@ -1362,9 +1379,11 @@
       "n/a",
       "n/a",
       "paranoia",
-      "n/a"
+      "intact-shortscram",
+      "intact-shortscram"
     ],
     "sex": [
+      "F",
       "F",
       "F",
       "F",
@@ -1376,7 +1395,8 @@
       "tunnel",
       "lucy",
       "prettymouth",
-      "notthefall"
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   },
   "sub-066": {
@@ -1384,21 +1404,29 @@
       "22",
       "22",
       "22",
-      "22"
+      "22",
+      "23",
+      "23"
     ],
     "comprehension": [
       "n/a",
       "n/a",
       "n/a",
-      "0.926"
+      "0.926",
+      "n/a",
+      "n/a"
     ],
     "condition": [
       "n/a",
       "n/a",
       "n/a",
-      "paranoia"
+      "paranoia",
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "M",
+      "M",
       "M",
       "M",
       "M",
@@ -1408,7 +1436,9 @@
       "pieman",
       "tunnel",
       "lucy",
-      "prettymouth"
+      "prettymouth",
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-067": {
@@ -1769,19 +1799,23 @@
     "age": [
       "18",
       "19",
+      "19",
       "19"
     ],
     "comprehension": [
       "0.889",
       "0.404",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "affair",
       "n/a",
-      "n/a"
+      "intact-shortscram",
+      "intact-shortscram"
     ],
     "sex": [
+      "F",
       "F",
       "F",
       "F"
@@ -1789,7 +1823,8 @@
     "task": [
       "prettymouth",
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   },
   "sub-085": {
@@ -1879,19 +1914,27 @@
     "age": [
       "19",
       "19",
+      "20",
+      "20",
       "22"
     ],
     "comprehension": [
       "0.926",
       "0.893",
+      "n/a",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "affair",
       "vodka",
+      "intact-shortscram",
+      "intact-shortscram",
       "n/a"
     ],
     "sex": [
+      "M",
+      "M",
       "M",
       "M",
       "M"
@@ -1899,6 +1942,8 @@
     "task": [
       "prettymouth",
       "milkyway",
+      "notthefallintact",
+      "notthefallshortscram",
       "schema"
     ]
   },
@@ -2006,6 +2051,8 @@
     "age": [
       "20",
       "20",
+      "20",
+      "20",
       "22",
       "22"
     ],
@@ -2013,13 +2060,53 @@
       "0.963",
       "0.821",
       "n/a",
+      "n/a",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "affair",
       "original",
+      "intact-shortscram",
+      "intact-shortscram",
       "movie-physical-social",
       "movie-physical-social"
+    ],
+    "sex": [
+      "M",
+      "M",
+      "M",
+      "M",
+      "M",
+      "M"
+    ],
+    "task": [
+      "prettymouth",
+      "milkyway",
+      "notthefallintact",
+      "notthefallshortscram",
+      "shapessocial",
+      "shapesphysical"
+    ]
+  },
+  "sub-096": {
+    "age": [
+      "19",
+      "19",
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "1.0",
+      "0.964",
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "affair",
+      "original",
+      "intact-shortscram",
+      "intact-shortscram"
     ],
     "sex": [
       "M",
@@ -2030,30 +2117,8 @@
     "task": [
       "prettymouth",
       "milkyway",
-      "shapessocial",
-      "shapesphysical"
-    ]
-  },
-  "sub-096": {
-    "age": [
-      "19",
-      "19"
-    ],
-    "comprehension": [
-      "1.0",
-      "0.964"
-    ],
-    "condition": [
-      "affair",
-      "original"
-    ],
-    "sex": [
-      "M",
-      "M"
-    ],
-    "task": [
-      "prettymouth",
-      "milkyway"
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   },
   "sub-097": {
@@ -2259,21 +2324,25 @@
       "22",
       "22",
       "22",
+      "22",
       "22"
     ],
     "comprehension": [
       "0.926",
       "0.893",
       "0.545",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "paranoia",
       "original",
       "n/a",
-      "n/a"
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "M",
       "M",
       "M",
       "M",
@@ -2283,7 +2352,8 @@
       "prettymouth",
       "milkyway",
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-107": {
@@ -2384,21 +2454,25 @@
       "19",
       "19",
       "19",
+      "19",
       "19"
     ],
     "comprehension": [
       "0.852",
       "1.0",
       "0.598",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "paranoia",
       "original",
       "n/a",
-      "n/a"
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "M",
       "M",
       "M",
       "M",
@@ -2408,7 +2482,8 @@
       "prettymouth",
       "milkyway",
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-112": {
@@ -2800,137 +2875,167 @@
     "age": [
       "23",
       "23",
+      "23",
       "25"
     ],
     "comprehension": [
       "0.349",
       "n/a",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a",
+      "intact-longscram",
+      "intact-longscram",
       "n/a"
     ],
     "sex": [
+      "M",
       "M",
       "M",
       "M"
     ],
     "task": [
       "slumlordreach",
-      "notthefall",
+      "notthefallintact",
+      "notthefalllongscram",
       "schema"
     ]
   },
   "sub-133": {
     "age": [
       "19",
+      "19",
       "19"
     ],
     "comprehension": [
       "0.402",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "F",
       "F",
       "F"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-134": {
     "age": [
       "19",
+      "19",
       "19"
     ],
     "comprehension": [
       "0.527",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "M",
       "M",
       "M"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-135": {
     "age": [
       "18",
+      "18",
       "18"
     ],
     "comprehension": [
       "0.397",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-shortscram",
+      "intact-shortscram"
     ],
     "sex": [
+      "M",
       "M",
       "M"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   },
   "sub-136": {
     "age": [
       "21",
+      "21",
       "21"
     ],
     "comprehension": [
       "0.608",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-shortscram",
+      "intact-shortscram"
     ],
     "sex": [
+      "F",
       "F",
       "F"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   },
   "sub-137": {
     "age": [
       "21",
+      "21",
       "21"
     ],
     "comprehension": [
       "0.522",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-shortscram",
+      "intact-shortscram"
     ],
     "sex": [
+      "F",
       "F",
       "F"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   },
   "sub-138": {
@@ -2953,133 +3058,163 @@
   "sub-139": {
     "age": [
       "20",
+      "20",
       "20"
     ],
     "comprehension": [
       "0.771",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "M",
       "M",
       "M"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-140": {
     "age": [
       "26",
+      "26",
       "26"
     ],
     "comprehension": [
       "0.305",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "M",
       "M",
       "M"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-141": {
     "age": [
       "20",
+      "20",
       "20"
     ],
     "comprehension": [
       "0.257",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-shortscram",
+      "intact-shortscram"
     ],
     "sex": [
+      "M",
       "M",
       "M"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   },
   "sub-142": {
     "age": [
       "21",
+      "21",
       "21"
     ],
     "comprehension": [
       "0.505",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "F",
       "F",
       "F"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-143": {
     "age": [
       "23",
+      "23",
       "23"
     ],
     "comprehension": [
       "0.699",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-shortscram",
+      "intact-shortscram"
     ],
     "sex": [
+      "M",
       "M",
       "M"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   },
   "sub-144": {
     "age": [
       "22",
+      "22",
       "22"
     ],
     "comprehension": [
       "0.266",
+      "n/a",
       "n/a"
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact-longscram",
+      "intact-longscram"
     ],
     "sex": [
+      "F",
       "F",
       "F"
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact",
+      "notthefalllongscram"
     ]
   },
   "sub-145": {
@@ -3093,7 +3228,7 @@
     ],
     "condition": [
       "n/a",
-      "n/a"
+      "intact"
     ],
     "sex": [
       "M",
@@ -3101,7 +3236,7 @@
     ],
     "task": [
       "slumlordreach",
-      "notthefall"
+      "notthefallintact"
     ]
   },
   "sub-146": {
@@ -4164,18 +4299,28 @@
   },
   "sub-195": {
     "age": [
+      "23",
+      "23",
       "25"
     ],
     "comprehension": [
+      "n/a",
+      "n/a",
       "n/a"
     ],
     "condition": [
+      "intact-shortscram",
+      "intact-shortscram",
       "n/a"
     ],
     "sex": [
+      "F",
+      "F",
       "F"
     ],
     "task": [
+      "notthefallintact",
+      "notthefallshortscram",
       "schema"
     ]
   },
@@ -4232,18 +4377,28 @@
   },
   "sub-199": {
     "age": [
+      "19",
+      "19",
       "21"
     ],
     "comprehension": [
+      "n/a",
+      "n/a",
       "n/a"
     ],
     "condition": [
+      "intact-longscram",
+      "intact-longscram",
       "n/a"
     ],
     "sex": [
+      "F",
+      "F",
       "F"
     ],
     "task": [
+      "notthefallintact",
+      "notthefalllongscram",
       "schema"
     ]
   },
@@ -5725,18 +5880,28 @@
   },
   "sub-268": {
     "age": [
+      "n/a",
+      "n/a",
       "20"
     ],
     "comprehension": [
+      "n/a",
+      "n/a",
       "1.0"
     ],
     "condition": [
+      "intact-longscram",
+      "intact-longscram",
       "n/a"
     ],
     "sex": [
+      "M",
+      "M",
       "M"
     ],
     "task": [
+      "notthefallintact",
+      "notthefalllongscram",
       "21styear"
     ]
   },
@@ -7197,6 +7362,626 @@
       "bronx",
       "forgot",
       "black"
+    ]
+  },
+  "sub-316": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "intact"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "notthefallintact"
+    ]
+  },
+  "sub-317": {
+    "age": [
+      "18"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "intact"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "notthefallintact"
+    ]
+  },
+  "sub-318": {
+    "age": [
+      "n/a"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "intact"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "notthefallintact"
+    ]
+  },
+  "sub-319": {
+    "age": [
+      "20"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "intact"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "notthefallintact"
+    ]
+  },
+  "sub-320": {
+    "age": [
+      "21"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "intact"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "notthefallintact"
+    ]
+  },
+  "sub-321": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "intact"
+    ],
+    "sex": [
+      "M"
+    ],
+    "task": [
+      "notthefallintact"
+    ]
+  },
+  "sub-322": {
+    "age": [
+      "n/a"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "intact"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "notthefallintact"
+    ]
+  },
+  "sub-323": {
+    "age": [
+      "22"
+    ],
+    "comprehension": [
+      "n/a"
+    ],
+    "condition": [
+      "intact"
+    ],
+    "sex": [
+      "F"
+    ],
+    "task": [
+      "notthefallintact"
+    ]
+  },
+  "sub-324": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-325": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-326": {
+    "age": [
+      "24",
+      "24"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-327": {
+    "age": [
+      "n/a",
+      "n/a"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-328": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-329": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-330": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-331": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-332": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-333": {
+    "age": [
+      "n/a",
+      "n/a"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-334": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-335": {
+    "age": [
+      "29",
+      "29"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-336": {
+    "age": [
+      "22",
+      "22"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-337": {
+    "age": [
+      "26",
+      "26"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-338": {
+    "age": [
+      "19",
+      "19"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-339": {
+    "age": [
+      "20",
+      "20"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-340": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-341": {
+    "age": [
+      "21",
+      "21"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-342": {
+    "age": [
+      "23",
+      "23"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "M",
+      "M"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-343": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
+    ]
+  },
+  "sub-344": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-longscram",
+      "intact-longscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefalllongscram"
+    ]
+  },
+  "sub-345": {
+    "age": [
+      "18",
+      "18"
+    ],
+    "comprehension": [
+      "n/a",
+      "n/a"
+    ],
+    "condition": [
+      "intact-shortscram",
+      "intact-shortscram"
+    ],
+    "sex": [
+      "F",
+      "F"
+    ],
+    "task": [
+      "notthefallintact",
+      "notthefallshortscram"
     ]
   }
 }

@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Run manually using something like:
-# ./run_fmriprep.sh 001 |& tee ../derivatives/logs/fmriprep-log.txt 
+# ./run_fmriprep.sh 001 |& tee ../derivatives/logs/fmriprep_sub-001_log.txt  
 
 export SINGULARITYENV_TEMPLATEFLOW_HOME=/home/fmriprep/.cache/templateflow
 

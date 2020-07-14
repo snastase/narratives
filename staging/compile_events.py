@@ -9,7 +9,8 @@ staging_dir = join(base_dir, 'narratives-staging')
 bids_dir = join(base_dir, 'narratives-openneuro')
 
 datasets = ['pieman', 'tunnel', 'lucy', 'prettymouth',
-            'milkyway', 'slumlordreach', 'notthefall',
+            'milkyway', 'slumlordreach', 'notthefallintact',
+            'notthefalllongscram', 'notthefallshortscram',
             'merlin', 'sherlock', 'schema', 'shapessocial',
             'shapesphysical', '21styear', 'piemanpni',
             'bronx', 'forgot', 'black']
@@ -52,8 +53,14 @@ events['slumlordreach'] = [['4.5', '22.0', 'music', 'slumlordreach_audio.wav'],
                            ['944.5', '22.0', 'music', 'slumlordreach_audio.wav'],
                            ['969.5', '825.0', 'story', 'slumlordreach_audio.wav']]
 
-events['notthefall'] = [['4.5', '22.0', 'music', 'notthefall_audio.wav'],
-                        ['29.5', '547.0', 'story', 'notthefall_audio.wav']]
+events['notthefallintact'] = [['4.5', '22.0', 'music', 'notthefallintact_audio.wav'],
+                              ['29.5', '547.0', 'story', 'notthefallintact_audio.wav']]
+
+events['notthefalllongscram'] = [['4.5', '22.0', 'music', 'notthefalllongscram_audio.wav'],
+                                 ['29.5', '547.0', 'story', 'notthefalllongscram_audio.wav']]
+
+events['notthefallshortscram'] = [['4.5', '22.0', 'music', 'notthefallshortscram_audio.wav'],
+                                  ['29.5', '547.0', 'story', 'notthefallshortscram_audio.wav']]
 
 events['merlin'] = [['4.5', '25.0', 'music', 'merlin_audio.wav'],
                     ['33.5', '886.0', 'story', 'merlin_audio.wav']]
@@ -121,3 +128,24 @@ for subject in metadata:
             
         events_tsv.to_csv('_'.join(func_fn.split('_')[:-1]) + '_events.tsv',
                           sep='\t', index=False)
+
+
+# Adjust event onsets for some known delinquent sessions
+# These are due to a trigger error where the stimulus was
+# manually started 4-5 TRs early (verified via A1 cross-correlation)
+adjust_onsets = {'prettymouth': {'sub-038': -6.0,
+                                 'sub-105': -7.5},
+                 'milkyway': {'sub-038': -6.0,
+                              'sub-105': -7.5}}
+
+for task in adjust_onsets:
+    for subject in adjust_onsets[task]:
+        events_fn = join(bids_dir, subject, 'func',
+                                      f'{subject}_task-{task}_events.tsv')
+        events_tsv = pd.read_csv(events_fn, sep='\t')
+        original = float('21.0')
+        assert events_tsv['onset'][1] == original
+        adjust = adjust_onsets[task][subject]
+        events_tsv['onset'][1] = original + adjust
+        events_tsv.to_csv(events_fn, sep='\t', index=False
+

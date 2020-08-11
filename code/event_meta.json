@@ -1,0 +1,114 @@
+{
+  "21styear": {
+    "21styear": {
+      "duration": 2225,
+      "onset": 14
+    }
+  },
+  "black": {
+    "black": {
+      "duration": 533,
+      "onset": 8
+    }
+  },
+  "bronx": {
+    "bronx": {
+      "duration": 357,
+      "onset": 8
+    }
+  },
+  "forgot": {
+    "forgot": {
+      "duration": 558,
+      "onset": 8
+    }
+  },
+  "lucy": {
+    "lucy": {
+      "duration": 361,
+      "onset": 1
+    }
+  },
+  "merlin": {
+    "merlin": {
+      "duration": 591,
+      "onset": 22
+    }
+  },
+  "milkyway": {
+    "milkyway": {
+      "duration": 269,
+      "onset": 14
+    }
+  },
+  "notthefallintact": {
+    "notthefallintact": {
+      "duration": 365,
+      "onset": 20
+    }
+  },
+  "notthefalllongscram": {
+    "notthefalllongscram": {
+      "duration": 365,
+      "onset": 20
+    }
+  },
+  "notthefallshortscram": {
+    "notthefallshortscram": {
+      "duration": 365,
+      "onset": 20
+    }
+  },
+  "pieman": {
+    "pieman": {
+      "duration": 281,
+      "onset": 10
+    }
+  },
+  "piemanpni": {
+    "piemanpni": {
+      "duration": 267,
+      "onset": 8
+    }
+  },
+  "prettymouth": {
+    "prettymouth": {
+      "duration": 451,
+      "onset": 14
+    }
+  },
+  "shapesphysical": {
+    "shapesphysical": {
+      "duration": 270,
+      "onset": 33
+    }
+  },
+  "shapessocial": {
+    "shapessocial": {
+      "duration": 272,
+      "onset": 33
+    }
+  },
+  "sherlock": {
+    "sherlock": {
+      "duration": 701,
+      "onset": 22
+    }
+  },
+  "slumlordreach": {
+    "reach": {
+      "duration": 550,
+      "onset": 646
+    },
+    "slumlord": {
+      "duration": 602,
+      "onset": 20
+    }
+  },
+  "tunnel": {
+    "tunnel": {
+      "duration": 1023,
+      "onset": 2
+    }
+  }
+}

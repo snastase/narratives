@@ -1,0 +1,108 @@
+{
+  "21styear": {},
+  "black": {},
+  "bronx": {},
+  "forgot": {},
+  "lucy": {
+    "sub-053": [
+      "sub-053_task-lucy"
+    ],
+    "sub-065": [
+      "sub-065_task-lucy"
+    ]
+  },
+  "merlin": {
+    "sub-158": [
+      "sub-158_task-merlin"
+    ]
+  },
+  "milkyway": {
+    "sub-038": [
+      "sub-038_task-milkyway"
+    ],
+    "sub-105": [
+      "sub-105_task-milkyway"
+    ],
+    "sub-123": [
+      "sub-123_task-milkyway"
+    ]
+  },
+  "notthefallintact": {
+    "sub-317": [
+      "sub-317_task-notthefallintact"
+    ],
+    "sub-335": [
+      "sub-335_task-notthefallintact"
+    ]
+  },
+  "notthefalllongscram": {
+    "sub-066": [
+      "sub-066_task-notthefalllongscram"
+    ],
+    "sub-335": [
+      "sub-335_task-notthefalllongscram"
+    ]
+  },
+  "notthefallshortscram": {
+    "sub-333": [
+      "sub-333_task-notthefallshortscram"
+    ]
+  },
+  "pieman": {
+    "sub-001": [
+      "sub-001_task-pieman_run-1",
+      "sub-001_task-pieman_run-2"
+    ],
+    "sub-013": [
+      "sub-013_task-pieman_run-2"
+    ],
+    "sub-014": [
+      "sub-014_task-pieman_run-2"
+    ],
+    "sub-021": [
+      "sub-021_task-pieman"
+    ],
+    "sub-022": [
+      "sub-022_task-pieman"
+    ],
+    "sub-038": [
+      "sub-038_task-pieman"
+    ],
+    "sub-056": [
+      "sub-056_task-pieman"
+    ],
+    "sub-068": [
+      "sub-068_task-pieman"
+    ]
+  },
+  "piemanpni": {},
+  "prettymouth": {
+    "sub-038": [
+      "sub-038_task-prettymouth"
+    ],
+    "sub-105": [
+      "sub-105_task-prettymouth"
+    ]
+  },
+  "schema": {},
+  "shapesphysical": {},
+  "shapessocial": {
+    "sub-238": [
+      "sub-238_task-shapessocial"
+    ]
+  },
+  "sherlock": {},
+  "slumlordreach": {
+    "sub-139": [
+      "sub-139_task-slumlordreach"
+    ]
+  },
+  "tunnel": {
+    "sub-004": [
+      "sub-004_task-tunnel"
+    ],
+    "sub-013": [
+      "sub-013_task-tunnel"
+    ]
+  }
+}

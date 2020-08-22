@@ -42,9 +42,9 @@ printf -v subj "%03d" $SLURM_ARRAY_TASK_ID
 echo "Running spatial smoothing on sub-$subj"
 
 ./run_regression.py $subj fsaverage6 afni-smooth
-./run_regression.py $subj fsaverage6 afni-nosmooth
-./run_regression.py $subj MNI152NLin2009cAsym afni-smooth
-./run_regression.py $subj MNI152NLin2009cAsym afni-nosmooth
+#./run_regression.py $subj fsaverage6 afni-nosmooth
+#./run_regression.py $subj MNI152NLin2009cAsym afni-smooth
+#./run_regression.py $subj MNI152NLin2009cAsym afni-nosmooth
 
 echo "Finished spatially smoothing sub-$subj"
 date

@@ -2,6 +2,8 @@ from os.path import basename, join
 from os import chdir
 from glob import glob
 import json
+import numpy as np
+from gifti_io import read_gifti, write_gifti
 from subprocess import run
 
 
@@ -49,19 +51,25 @@ for hemi in ['L', 'R']:
                      f'sub-*_task-*_space-{space}_'
                      f'hemi-{hemi}_desc-tsnr.func.gii')
     mean_fn = join(afni_dir, f'group_space-{space}_hemi-{hemi}_'
-                             'desc-tsnr.func.gii')
+                             'desc-mean_tsnr.gii')
     run(f'3dMean -verbose -prefix {mean_fn} {input_fns}', shell=True)
     print(f"Finished computing mean tSNR for {hemi} hemisphere")
     
     
 # Compute median across all input images
-chdir(afni_dir)
 for hemi in ['L', 'R']:
-    input_fns = join(afni_dir, 'sub-*', 'func',
-                     f'sub-*_task-*_space-{space}_'
-                     f'hemi-{hemi}_desc-tsnr.func.gii')
+    input_fns = glob(join(afni_dir, 'sub-*', 'func',
+                          f'sub-*_task-*_space-{space}_'
+                          f'hemi-{hemi}_desc-tsnr.func.gii'))
+    tsnr_stack = []
+    for input_fn in input_fns:
+        tsnr_stack.append(read_gifti(input_fn))
+    tsnr_stack = np.vstack(tsnr_stack)
+    print(f"Loaded all {tsnr_stack.shape[0]} tSNR maps")
+    
+    tsnr_median = np.median(tsnr_stack, axis=0)
     median_fn = join(afni_dir, f'group_space-{space}_hemi-{hemi}_'
-                               'desc-tsnr.func.gii')
-    run(f"3dcalc -verbose -prefix {median_fn} -a '{input_fns}' "
-        "-expr 'median(a)'", shell=True)
+                               'desc-median_tsnr.gii')
+
+    write_gifti(tsnr_median, median_fn, input_fns[0])
     print(f"Finished computing median tSNR for {hemi} hemisphere")

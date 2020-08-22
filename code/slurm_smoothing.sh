@@ -16,7 +16,7 @@
 #SBATCH --job-name=smoothing
 
 # Where to output log files?
-#SBATCH --output='../derivatives/logs/smoothing-rerun5to6-%A_%a.log'
+#SBATCH --output='../derivatives/logs/smoothing-surfmask-%A_%a.log'
 
 # Number jobs to run in parallel, pass index as subject ID
 #SBATCH --array=1-345

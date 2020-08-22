@@ -19,7 +19,8 @@ if 'MNI' not in space and 'fsaverage' not in space:
 
 
 # Create output AFNI directory if it doesn't exist
-deriv_dir = '/jukebox/hasson/snastase/narratives/derivatives'
+base_dir = '/jukebox/hasson/snastase/narratives'
+deriv_dir = join(base_dir, 'derivatives')
 fmriprep_dir = join(deriv_dir, 'fmriprep', subject, 'func')
 freesurfer_dir = join(deriv_dir, 'freesurfer')
 
@@ -49,7 +50,7 @@ for bold_fn in bold_fns:
 
     # Volumetric smoothing for MNI space
     if 'MNI' in space:
-        mask_fn = join(deriv_dir, 'afni', f'tpl-{space}',
+        mask_fn = join(deriv_dir, afni_pipe, f'tpl-{space}',
                        f'tpl-{space}_res-{task}_desc-brain_mask.nii.gz')
         smooth_fn = join(afni_dir, basename(bold_fn).replace(
             'desc-preproc', f'desc-sm{width}'))
@@ -63,25 +64,17 @@ for bold_fn in bold_fns:
         hemi = bold_fn.split('hemi-')[1][0]
         smooth_fn = join(afni_dir, basename(bold_fn).replace(
             '.func.gii', f'_desc-sm{width}.func.gii'))
+        mask_fn = join(deriv_dir, afni_pipe, f'tpl-{space}',
+                       f'tpl-{space}_hemi-{hemi}_desc-cortex_mask.1D')
         
         if task in ['schema', 'shapesphysical', 'shapessocial']:
             sigma = .6
-            rerun = True
         elif task in ['black', 'forgot', 'bronx', 'piemanpni']:
             sigma = .55
-            rerun = True
         else:
-            sigma = .5
-            rerun = False
+            sigma = .48
 
-        if rerun:
-            run(f"SurfSmooth -input {bold_fn} -target_fwhm {width} "
-                f"-i_fs {surf_fns[hemi]} -output {smooth_fn} "
-                f"-blurmaster {bold_fn} -detrend_master "
-                f"-met HEAT_07 -bmall -sigma {sigma} -overwrite", shell=True)
-        else:
-            if not exists(smooth_fn):
-                run(f"SurfSmooth -input {bold_fn} -target_fwhm {width} "
-                    f"-i_fs {surf_fns[hemi]} -output {smooth_fn} "
-                    f"-blurmaster {bold_fn} -detrend_master "
-                    f"-met HEAT_07 -bmall -sigma {sigma} -overwrite", shell=True)
+        run(f"SurfSmooth -input {bold_fn} -target_fwhm {width} "
+            f"-i_fs {surf_fns[hemi]} -output {smooth_fn} "
+            f"-blurmaster {bold_fn} -detrend_master -b_mask {mask_fn} "
+            f"-met HEAT_07 -bmall -sigma {sigma} -overwrite", shell=True)

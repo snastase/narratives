@@ -210,3 +210,48 @@ plt.savefig(join(base_dir, 'code', 'fig2_fwhm.png'),
             transparent=True, dpi=300,
             bbox_inches = 'tight')
 plt.show()
+
+
+# Check smoothing records for SurfSmooth
+afni_dir = join(base_dir, 'derivatives', 'afni-smooth')
+
+with open(join(base_dir, 'code', 'task_meta.json')) as f:
+    task_meta = json.load(f)
+
+# Load in surface smoothing records
+surf_smooth = {'FWHM': [], 'subject': [], 'task': [],
+               'iterations': [], 'sigma': []}
+for task in task_meta:
+    for subject in task_meta[task]:
+        smrec_fns = glob(join(afni_dir, subject, 'func',
+                              f'{subject}_task-{task}_*.smrec'))
+        for smrec_fn in smrec_fns:
+            with open(smrec_fn) as f:
+                last_line = f.readlines()[-1]
+            i, f, s = last_line.strip().split()
+            surf_smooth['FWHM'].append(float(f))
+            surf_smooth['subject'].append(subject)
+            surf_smooth['task'].append(task)
+            surf_smooth['iterations'].append(int(i))
+            surf_smooth['sigma'].append(float(s))
+
+# Convert to pandas
+surf_smooth = pd.DataFrame(surf_smooth)
+
+# Get summary statistics about surface smoothing
+print(f"Overall mean smoothness: {surf_smooth['FWHM'].mean():.3f} "
+      f"(SD: {surf_smooth['FWHM'].std():.3f})")
+
+acq_tasks = {'Skyra': ['21styear', 'lucy', 'merlin', 'milkyway',
+                       'notthefallintact', 'notthefallshortscram',
+                       'notthefalllongscram', 'pieman','prettymouth',
+                       'sherlock','slumlordreach', 'tunnel'],
+             'Prisma (2 mm)': ['schema', 'shapesphysical', 'shapessocial'],
+             'Prisma (2.5 mm)': ['bronx', 'piemanpni', 'black', 'forgot']}
+
+for acq in acq_tasks:
+    acq_mean = surf_smooth[surf_smooth['task'].isin(
+        acq_tasks[acq])]['FWHM'].mean()
+    acq_std = surf_smooth[surf_smooth['task'].isin(
+        acq_tasks[acq])]['FWHM'].std()
+    print(f"{acq} mean smoothness: {acq_mean:.3f} (SD: {acq_std:.3f})")

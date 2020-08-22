@@ -6,14 +6,14 @@ from os import getcwd, remove
 import json
 from subprocess import run, PIPE
 
-
-# Get subject from command-line input via Slurm
-subject = f'sub-{argv[1]}'
-
 # Assign some directories
 base_dir = '/jukebox/hasson/snastase/narratives'
 prep_dir = join(base_dir, 'derivatives', 'fmriprep')
 afni_dir = join(base_dir, 'derivatives', 'afni-nosmooth')
+
+
+# Get subject from command-line input via Slurm
+subject = f'sub-{argv[1]}'
 
 
 # Load subject metadata to get filenames

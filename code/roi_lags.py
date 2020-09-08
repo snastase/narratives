@@ -164,6 +164,17 @@ for task in task_meta:
     for subtask in subtasks:
         results[subtask] = {}
 
+        # Split milkyway and prettymouth by condition/group;
+        # note that this means we're implicitly ignoring the
+        # naive vs non-naive listening conditions of merlin,
+        # sherlock, shapesphysical, shapessocial, notthefall
+        if task == 'milkyway':
+            groups = ['original', 'vodka', 'synonyms']
+        elif task == 'prettymouth':
+            groups = ['affair', 'paranoia']
+        else:
+            groups = [None]
+
         # Grab event onsets and offsets for trimming
         onset = event_meta[task][subtask]['onset']
         offset = onset + event_meta[task][subtask]['duration']
@@ -171,71 +182,93 @@ for task in task_meta:
         # Get a convenience subject list for this task
         subjects = sorted(task_meta[task].keys())
 
+        # Loop through hemispheres
         for hemi in ['L', 'R']:
+            results[subtask][hemi] = {'lagged ISCs': {},
+                                      'peak lags': {}}
+            
+            # Loop through potential group manipulations (milkyway, paranoia)
+            for group in groups:
 
-            # Create lists for storing subjects and run filenames
-            subject_list, run_list = [], []
-            data = []
-            for subject in subjects:
+                # Create lists for storing subjects and run filenames
+                subject_list, run_list = [], []
+                data = []
+                for subject in subjects:
 
-                data_dir = join(afni_dir, subject, 'func')
-
-                roi_fns = natsorted(glob(join(data_dir,
-                              (f'{subject}_task-{task}_*space-{space}_'
-                               f'hemi-{hemi}_roi-{roi}_desc-clean_'
-                               'timeseries.1D'))))
-
-                # Grab all runs in case of multiple runs
-                for roi_fn in roi_fns:
-                    
-                    if exclude and exclude_scan(roi_fn, scan_exclude):
-                        print(f"Excluding {basename(roi_fn)}!")
+                    # Skip the subjects not belonging to this group
+                    if group and group != task_meta[subtask][
+                                              subject]['condition']:
                         continue
-                        
+
+                    data_dir = join(afni_dir, subject, 'func')
+
+                    roi_fns = natsorted(glob(join(data_dir,
+                                  (f'{subject}_task-{task}_*space-{space}_'
+                                   f'hemi-{hemi}_roi-{roi}_desc-clean_'
+                                   'timeseries.1D'))))
+
+                    # Grab all runs in case of multiple runs
+                    for roi_fn in roi_fns:
+
+                        if exclude and exclude_scan(roi_fn, scan_exclude):
+                            print(f"Excluding {basename(roi_fn)}!")
+                            continue
+
+                        else:
+
+                            # Strip comments and load in data as numpy array
+                            subj_data = load_1D(roi_fn)
+
+                            # Trim data based on event onset and duration
+                            subj_data = subj_data[onset:offset]
+                            subj_data = subj_data[initial_trim:]
+
+                            # Z-score input time series
+                            subj_data = zscore(subj_data)
+
+                            subject_list.append(subject)
+                            run_list.append(basename(roi_fn))
+                            data.append(subj_data)
+
+                data = np.column_stack(data)
+
+                # Compute lagged ISCs
+                lagged_iscs, peak_lags = lagged_isc(data, lags=lags)
+                lagged_iscs = np.squeeze(lagged_iscs)
+                
+                # Print group-specific ISC notification
+                if group:
+                    print(f"Within-group lagged ISC computed for "
+                          f"{task} ({hemi}): {group}")
+
+                # Plot lags
+                if group:
+                    plot_title = f"lagged ISC: {subtask} ({group}; {hemi})"
+                else:
+                    plot_title = f"lagged ISC: {subtask} ({hemi})"
+                plot_lagged_correlation(lagged_iscs, title=plot_title)
+
+                # Convert ISCs into subject-keyed dictionary
+                assert (len(subject_list) == len(run_list) ==
+                        lagged_iscs.shape[1] == len(peak_lags))
+
+                isc_dict, peak_dict = {}, {}
+                for s, fn, r, p in zip(subject_list, run_list,
+                                       lagged_iscs.T, peak_lags):
+                    if s not in isc_dict:
+                        isc_dict[s] = {fn: r.tolist()}
                     else:
+                        isc_dict[s][fn] = r.tolist()
 
-                        # Strip comments and load in data as numpy array
-                        subj_data = load_1D(roi_fn)
+                    if s not in peak_dict:
+                        peak_dict[s] = {fn: p}
+                    else:
+                        peak_dict[s][fn] = p
+                        
+                # Using update method to concatenate groups
+                results[subtask][hemi]['lagged ISCs'].update(isc_dict)
+                results[subtask][hemi]['peak lags'].update(peak_dict)
 
-                        # Trim data based on event onset and duration
-                        subj_data = subj_data[onset:offset]
-                        subj_data = subj_data[initial_trim:]
-
-                        # Z-score input time series
-                        subj_data = zscore(subj_data)
-
-                        subject_list.append(subject)
-                        run_list.append(basename(roi_fn))
-                        data.append(subj_data)
-
-            data = np.column_stack(data)
-            
-            # Compute lagged ISCs
-            lagged_iscs, peak_lags = lagged_isc(data, lags=lags)
-            lagged_iscs = np.squeeze(lagged_iscs)
-            
-            # Plot lags
-            plot_lagged_correlation(lagged_iscs)
-
-            # Convert ISCs into subject-keyed dictionary
-            assert (len(subject_list) == len(run_list) ==
-                    lagged_iscs.shape[1] == len(peak_lags))
-
-            isc_dict, peak_dict = {}, {}
-            for s, fn, r, p in zip(subject_list, run_list,
-                                   lagged_iscs.T, peak_lags):
-                if s not in isc_dict:
-                    isc_dict[s] = {fn: r.tolist()}
-                else:
-                    isc_dict[s][fn] = r.tolist()
-                    
-                if s not in peak_dict:
-                    peak_dict[s] = {fn: p}
-                else:
-                    peak_dict[s][fn] = p
-
-            results[subtask][hemi] = {'lagged ISCs': isc_dict,
-                                      'peak lags': peak_dict}
 
 # Save results to disk
 results_fn = join(afni_dir, f'group_roi-{roi}_desc-exclude_lags.json')

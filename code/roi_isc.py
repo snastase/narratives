@@ -61,6 +61,17 @@ for task in task_meta:
     # Loop through potential substories (i.e. for 'slumlordreach')
     for subtask in subtasks:
         results[subtask] = {}
+        
+        # Split milkyway and prettymouth by condition/group;
+        # note that this means we're implicitly ignoring the
+        # naive vs non-naive listening conditions of merlin,
+        # sherlock, shapesphysical, shapessocial, notthefall
+        if task == 'milkyway':
+            groups = ['original', 'vodka', 'synonyms']
+        elif task == 'prettymouth':
+            groups = ['affair', 'paranoia']
+        else:
+            groups = [None]
 
         # Grab event onsets and offsets for trimming
         onset = event_meta[task][subtask]['onset']
@@ -68,63 +79,79 @@ for task in task_meta:
 
         # Get a convenience subject list for this task
         subjects = sorted(task_meta[task].keys())
-
+        
+        # Loop through hemispheres
         for hemi in ['L', 'R']:
-            
-            # Create lists for storing subjects and run filenames
-            subject_list, run_list = [], []
-            data = []
-            for subject in subjects:
+            results[subtask][hemi] = {}
+        
+            # Loop through potential group manipulations (milkyway, paranoia)
+            for group in groups:
 
-                data_dir = join(afni_dir, subject, 'func')
+                # Create lists for storing subjects and run filenames
+                subject_list, run_list = [], []
+                data = []
+                for subject in subjects:
 
-                roi_fns = natsorted(glob(join(data_dir,
-                              (f'{subject}_task-{task}_*space-{space}_'
-                               f'hemi-{hemi}_roi-{roi}_desc-clean_'
-                               'timeseries.1D'))))
-
-                # Grab all runs in case of multiple runs
-                for roi_fn in roi_fns:
-
-                    if exclude and exclude_scan(roi_fn, scan_exclude):
-                        print(f"Excluding {basename(roi_fn)}!")
+                    # Skip the subjects not belonging to this group
+                    if group and group != task_meta[subtask][
+                                              subject]['condition']:
                         continue
-                        
-                    else:
                     
-                        # Strip comments and load in data as numpy array
-                        subj_data = load_1D(roi_fn)
+                    data_dir = join(afni_dir, subject, 'func')
 
-                        # Trim data based on event onset and duration
-                        subj_data = subj_data[onset:offset]
-                        subj_data = subj_data[initial_trim:]
+                    roi_fns = natsorted(glob(join(data_dir,
+                                  (f'{subject}_task-{task}_*space-{space}_'
+                                   f'hemi-{hemi}_roi-{roi}_desc-clean_'
+                                   'timeseries.1D'))))
 
-                        # Z-score input time series
-                        subj_data = zscore(subj_data)
+                    # Grab all runs in case of multiple runs
+                    for roi_fn in roi_fns:
+                        
+                        if exclude and exclude_scan(roi_fn, scan_exclude):
+                            print(f"Excluding {basename(roi_fn)}!")
+                            continue
 
-                        subject_list.append(subject)
-                        run_list.append(basename(roi_fn))
-                        data.append(subj_data)
+                        else:
 
-            data = np.column_stack(data)
+                            # Strip comments and load in data as numpy array
+                            subj_data = load_1D(roi_fn)
 
-            # Compute ISCs
-            iscs = isc(data).flatten()
+                            # Trim data based on event onset and duration
+                            subj_data = subj_data[onset:offset]
+                            subj_data = subj_data[initial_trim:]
 
-            # Print mean and SD
-            print(f"Mean {hemi} {roi} ISC for {subtask} = {np.mean(iscs):.3f} "
-                  f"(SD = {np.std(iscs):.3f})")
+                            # Z-score input time series
+                            subj_data = zscore(subj_data)
 
-            # Convert ISCs into subject-keyed dictionary
-            assert len(subject_list) == len(run_list) == len(iscs)
-            isc_dict = {}
-            for s, fn, r in zip(subject_list, run_list, iscs):
-                if s not in isc_dict:
-                    isc_dict[s] = {fn: r}
-                else:
-                    isc_dict[s][fn] = r
+                            subject_list.append(subject)
+                            run_list.append(basename(roi_fn))
+                            data.append(subj_data)
 
-            results[subtask][hemi] = isc_dict
+                data = np.column_stack(data)
+
+                # Compute ISCs
+                iscs = isc(data).flatten()
+                
+                # Print group-specific ISC notification
+                if group:
+                    print(f"Within-group ISC computed for {task} "
+                          f"({hemi}): {group}")
+
+                # Print mean and SD
+                print(f"Mean {hemi} {roi} ISC for {subtask} = "
+                      f"{np.mean(iscs):.3f} (SD = {np.std(iscs):.3f})")
+
+                # Convert ISCs into subject-keyed dictionary
+                assert len(subject_list) == len(run_list) == len(iscs)
+                isc_dict = {}
+                for s, fn, r in zip(subject_list, run_list, iscs):
+                    if s not in isc_dict:
+                        isc_dict[s] = {fn: r}
+                    else:
+                        isc_dict[s][fn] = r
+
+                # Using update method to concatenate groups
+                results[subtask][hemi].update(isc_dict)
 
 
 # Save results to disk

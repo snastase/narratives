@@ -57,6 +57,17 @@ for task in task_meta:
     # Loop through potential substories (i.e. for 'slumlordreach')
     for subtask in subtasks:
 
+        # Split milkyway and prettymouth by condition/group;
+        # note that this means we're implicitly ignoring the
+        # naive vs non-naive listening conditions of merlin,
+        # sherlock, shapesphysical, shapessocial, notthefall
+        if task == 'milkyway':
+            groups = ['original', 'vodka', 'synonyms']
+        elif task == 'prettymouth':
+            groups = ['affair', 'paranoia']
+        else:
+            groups = [None]
+
         # Grab event onsets and offsets for trimming
         onset = event_meta[task][subtask]['onset']
         offset = onset + event_meta[task][subtask]['duration']
@@ -64,61 +75,75 @@ for task in task_meta:
         # Get a convenience subject list for this task
         subjects = sorted(task_meta[task].keys())
 
+        # Loop through hemispheres
         for hemi in ['L', 'R']:
             
-            # Create lists for storing subjects and run filenames
-            subject_list, run_list = [], []
-            data = []
-            for subject in subjects:
-
-                data_dir = join(afni_dir, subject, 'func')
-
-                bold_fns = natsorted(glob(join(data_dir,
-                              (f'{subject}_task-{task}_*space-{space}_'
-                               f'hemi-{hemi}_desc-clean.func.gii'))))
+            # Loop through potential group manipulations (milkyway, paranoia)
+            for group in groups:
                 
-                # Grab all runs in case of multiple runs
-                for bold_fn in bold_fns:
+                # Create lists for storing subjects and run filenames
+                subject_list, run_list = [], []
+                data = []
+                for subject in subjects:
 
-                    if exclude and exclude_scan(bold_fn, scan_exclude):
-                        print(f"Excluding {basename(bold_fn)}!")
+                    # Skip the subjects not belonging to this group
+                    if group and group != task_meta[subtask][
+                                              subject]['condition']:
                         continue
-                        
-                    else:
                     
-                        # Strip comments and load in data as numpy array
-                        subj_data = read_gifti(bold_fn)
+                    data_dir = join(afni_dir, subject, 'func')
 
-                        # Trim data based on event onset and duration
-                        subj_data = subj_data[onset:offset, :]
-                        subj_data = subj_data[initial_trim:, :]
+                    bold_fns = natsorted(glob(join(data_dir,
+                                  (f'{subject}_task-{task}_*space-{space}_'
+                                   f'hemi-{hemi}_desc-clean.func.gii'))))
 
-                        # Z-score input time series
-                        subj_data = zscore(subj_data, axis=0)
+                    # Grab all runs in case of multiple runs
+                    for bold_fn in bold_fns:
 
-                        subject_list.append(subject)
-                        run_list.append(basename(bold_fn))
-                        data.append(subj_data)
-                        print(f"Loaded {subtask} {subject} "
-                              f"({hemi}) for ISC analysis")
+                        if exclude and exclude_scan(bold_fn, scan_exclude):
+                            print(f"Excluding {basename(bold_fn)}!")
+                            continue
 
-            data = np.dstack(data)
+                        else:
 
-            # Compute ISCs
-            print(f"Started ISC analysis for {subtask}")
-            iscs = isc(data)
-            print(f"Finished ISC analysis for {subtask}")
+                            # Strip comments and load in data as numpy array
+                            subj_data = read_gifti(bold_fn)
 
-            # Split ISCs into subject-/run-specific GIfTI files
-            assert len(subject_list) == len(run_list) == len(iscs)
-            for s, fn, r in zip(subject_list, run_list, iscs):
-                isc_fn = join(afni_dir, s, 'func',
-                              fn.replace('_desc-clean.func.gii',
-                                         '_isc.gii').replace(
-                              f'desc-{task}', f'desc-{subtask}'))
-                template_fn = join(afni_dir, s, 'func', fn)
-                write_gifti(r, isc_fn, template_fn)
-                print(f"Saved {subtask} {s} ({hemi}) ISC")
+                            # Trim data based on event onset and duration
+                            subj_data = subj_data[onset:offset, :]
+                            subj_data = subj_data[initial_trim:, :]
+
+                            # Z-score input time series
+                            subj_data = zscore(subj_data, axis=0)
+
+                            subject_list.append(subject)
+                            run_list.append(basename(bold_fn))
+                            data.append(subj_data)
+                            print(f"Loaded {subtask} {subject} "
+                                  f"({hemi}) for ISC analysis")
+
+                data = np.dstack(data)
+                
+                # Print group-specific ISC notification
+                if group:
+                    print(f"Computing within-group ISCs for {task} "
+                          f"({hemi}): {group}")
+
+                # Compute ISCs
+                print(f"Started ISC analysis for {subtask} ({hemi})")
+                iscs = isc(data)
+                print(f"Finished ISC analysis for {subtask} ({hemi})")
+
+                # Split ISCs into subject-/run-specific GIfTI files
+                assert len(subject_list) == len(run_list) == len(iscs)
+                for s, fn, r in zip(subject_list, run_list, iscs):
+                    isc_fn = join(afni_dir, s, 'func',
+                                  fn.replace('_desc-clean.func.gii',
+                                             '_isc.gii').replace(
+                                  f'desc-{task}', f'desc-{subtask}'))
+                    template_fn = join(afni_dir, s, 'func', fn)
+                    write_gifti(r, isc_fn, template_fn)
+                    print(f"Saved {subtask} {s} ({hemi}) ISC")
 
 
 # Custom mean estimator with Fisher z transformation for correlations

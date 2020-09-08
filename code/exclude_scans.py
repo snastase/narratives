@@ -93,6 +93,10 @@ if __name__ == '__main__':
                     'piemanpni': {},
                     'black': {},
                     'forgot': {}}
+    
+    # Save a priori exclusion for initial ISC calculation
+    with open(join(base_dir, 'code', 'scan_exclude.json'), 'w') as f:
+        json.dump(scan_exclude, f, indent=2, sort_keys=True)
 
 
     # Create exclusion based on peak lags
@@ -102,7 +106,7 @@ if __name__ == '__main__':
     threshold = 3
 
     # Load in lagged ISC results
-    results_fn = join(afni_dir, f'group_roi-{roi}_desc-lag{lags}_isc.json')
+    results_fn = join(afni_dir, f'group_roi-{roi}_lags.json')
     with open(results_fn) as f:
         results = json.load(f)
 

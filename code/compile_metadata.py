@@ -106,6 +106,17 @@ for task in tasks:
                         if f"task-{task}_" in bold_fn:
                             task_meta[task][subject]['bold'][space][
                                 desc].append(bold_fn)
+                            
+            # Load in group/condition variables; important for
+            # splitting ISC analysis for e.g. milkyway, prettymouth
+            scans_fn = join(base_dir, subject, f'{subject}_scans.tsv')
+            scans_tsv = pd.read_csv(scans_fn, sep='\t',
+                                    keep_default_na=False)
+            conditions = scans_tsv[scans_tsv['filename'].str.contains(
+                            f'{subject}_task-{task}_')]['condition'].values
+            assert np.all(conditions == conditions[0])
+            condition = conditions[0]
+            task_meta[task][subject]['condition'] = condition
 
 # Save the task metadata dictionary
 with open(join(base_dir, 'code', 'task_meta.json'), 'w') as f:

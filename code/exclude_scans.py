@@ -310,14 +310,7 @@ if __name__ == '__main__':
                                  list(scan_exclude[task].values())
                                  for r in s])
     n_exclude = len(exclude_list)
-            
-    # Check that task metadata matches up
-    n_scans = []
-    for task in task_meta:
-        for subject in task_meta[task]:
-            n_scans.append(
-                len(task_meta[task][subject]['confounds']))
-    n_scans = sum(n_scans)
+    n_scans = 891
     
     print(f"Excluding {n_exclude} scans across all criteria; "
           f"{n_exclude / n_scans:.1%} of {n_scans} total scans")

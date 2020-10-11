@@ -104,7 +104,7 @@ sns.despine()
 plt.tight_layout()
 plt.savefig(join(base_dir, 'code', 'fig3_isc_ex.png'),
             transparent=True, dpi=300,
-            bbox_inches = 'tight')
+            bbox_inches='tight')
 plt.show()
 
 
@@ -174,5 +174,5 @@ sns.despine(ax=axs[0])
 plt.subplots_adjust(hspace=0.05)
 plt.savefig(join(base_dir, 'code', 'fig3_lags_ex.png'),
             transparent=True, dpi=300,
-            bbox_inches = 'tight')
+            bbox_inches='tight')
 plt.show()

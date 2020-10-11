@@ -77,7 +77,7 @@ sns.despine()
 plt.tight_layout()
 plt.savefig(join(base_dir, 'code', 'fig2_tsnr.png'),
             transparent=True, dpi=300,
-            bbox_inches = 'tight')
+            bbox_inches='tight')
 plt.show()
 
 
@@ -123,7 +123,7 @@ sns.despine()
 plt.tight_layout()
 plt.savefig(join(base_dir, 'code', 'fig2_fd.png'),
             transparent=True, dpi=300,
-            bbox_inches = 'tight')
+            bbox_inches='tight')
 plt.show()
 
 
@@ -208,7 +208,7 @@ sns.despine()
 plt.tight_layout()
 plt.savefig(join(base_dir, 'code', 'fig2_fwhm.png'),
             transparent=True, dpi=300,
-            bbox_inches = 'tight')
+            bbox_inches='tight')
 plt.show()
 
 

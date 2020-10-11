@@ -140,7 +140,7 @@ for task in task_meta:
                     isc_fn = join(afni_dir, s, 'func',
                                   fn.replace('_desc-clean.func.gii',
                                              '_isc.gii').replace(
-                                  f'desc-{task}', f'desc-{subtask}'))
+                                  f'task-{task}', f'task-{subtask}'))
                     template_fn = join(afni_dir, s, 'func', fn)
                     write_gifti(r, isc_fn, template_fn)
                     print(f"Saved {subtask} {s} ({hemi}) ISC")
@@ -182,7 +182,7 @@ for hemi in ['L', 'R']:
                 data_dir = join(afni_dir, subject, 'func')
 
                 isc_fns = natsorted(glob(join(data_dir,
-                              (f'{subject}_task-{task}_*space-{space}_'
+                              (f'{subject}_task-{subtask}_*space-{space}_'
                                f'hemi-{hemi}_isc.gii'))))
 
                 # Grab all runs in case of multiple runs
@@ -227,7 +227,7 @@ for hemi in ['L', 'R']:
     
     # Compute mean of 'slumlord' and 'reach' means
     comb_isc = fisher_mean((read_gifti(slumlord_fn),
-                            read_gifti(reach_fn)))
+                            read_gifti(reach_fn)), axis=0)[0, :]
     
     # Save combined map
     comb_fn = join(afni_dir, f'group_task-slumlordreach_space-{space}_'

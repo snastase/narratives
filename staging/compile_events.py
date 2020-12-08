@@ -30,7 +30,7 @@ events['pieman'] = [['0.0', '13.0', 'music', 'pieman_audio.wav'],
 
 events['tunnel'] = [['3.0', '1534.0', 'story', 'tunnel_audio.wav']]
 
-events['lucy'] = [['2.0', '542.0', 'story', 'lucy_audio.wav']]
+events['lucy'] = [['3.0', '542.0', 'story', 'lucy_audio.wav']]
 
 events['prettymouth'] = [['0.0', '18.0', 'music', 'prettymouth_audio.wav'],
                          ['21.0', '676.0', 'story', 'prettymouth_audio.wav']]

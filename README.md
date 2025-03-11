@@ -15,7 +15,7 @@ Correspondence: Samuel A. Nastase ([sam.nastase@gmail.com](mailto:sam.nastase@gm
 
 If you find this dataset useful, please cite the following:
 
-Nastase, S. A., Liu, Y.-F., Hillman, H., Zadbood, A., Hasenfratz, L., Keshavarzian, N., Chen, J., Honey, C. J., Yeshurun, Y., Regev, M., Nguyen, M., Chang, C. H. C., Baldassano, C., Lositsky, O., Simony, E., Chow, M. A., Leong, Y. C., Brooks, P. P., Micciche, E., Choe, G., Goldstein, A., Vanderwal, T., Halchenko, Y. O., Norman, K. A., & Hasson, U. (2019). Narratives: fMRI data for evaluating models of naturalistic language comprehension. *OpenNeuro*, ds002345. [`DOI`](https://doi.org/10.18112/openneuro.ds002345.v1.1.3)
+Nastase, S. A., Liu, Y.-F., Hillman, H., Zadbood, A., Hasenfratz, L., Keshavarzian, N., Chen, J., Honey, C. J., Yeshurun, Y., Regev, M., Nguyen, M., Chang, C. H. C., Baldassano, C., Lositsky, O., Simony, E., Chow, M. A., Leong, Y. C., Brooks, P. P., Micciche, E., Choe, G., Goldstein, A., Vanderwal, T., Halchenko, Y. O., Norman, K. A., & Hasson, U. (2021). The “Narratives” fMRI dataset for evaluating models of naturalistic language comprehension. *Scientific Data*, *8*, 250. [`DOI`](https://doi.org/10.1038/s41597-021-01033-3)
 
 #### Code
 This repository contains both scripts used to prepare the data for sharing (`staging/`) and scripts used to analyze the BIDS-formatted data (`code/`). For example, in the `staging` directory, you can find scripts for compiling data and metadata, environment files specifying the Python software stack (e.g. `environment.yml`), and example stimulus presentation scripts (e.g. `story_presentation.py`). The following list summarizes the scripts from the `code/` directory used to process the "Narratives" data with brief descriptions (roughly in orer of execution):
